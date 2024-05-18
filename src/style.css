@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0d0d0d, #2c2c2c, #1f1f1f);
+}
+
+.container {
+  background-color: #ffffff;
+  width: min(90%, 500px);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 3em;
+  border-radius: 1em;
+  box-shadow: 0 20px 40px rgba(7, 7, 7, 0.7);
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin: 3em 0 0.3em 0;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: #090909;
+  color: #ffffff;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  outline: none;
+  margin: 1em 0;
+  cursor: pointer;
+  box-shadow: 0 20px 40px rgba(7, 7, 7, 0.1);
+}
+
+p {
+  font-weight: 600;
+}
+
+p span {
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icons {
+  display: flex;
+}
+
+.icons .icon {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.icons .icon:hover {
+  transform: translateY(-5px);
+}
+
+.footer p {
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+.icons .icon img {
+  height: 40px;
+  border-radius: 10%;
+}
