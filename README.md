@@ -75,7 +75,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Conteact
+## Contact
 
 - [Twitter](https://twitter.com/arindal_17)
 - [GitHub](https://github.com/arindal1)
